@@ -11,6 +11,11 @@ body {
     border: 2px solid red;
 }
 
+h4 {
+    color:#828FA3;
+    font-size: 0.75em;
+}
+
 nav {
     width:20%;
     padding:2rem;
@@ -41,5 +46,6 @@ nav {
     display:flex;
     flex-direction:column;
     flex:1;
+    padding:1rem;
     
 }
