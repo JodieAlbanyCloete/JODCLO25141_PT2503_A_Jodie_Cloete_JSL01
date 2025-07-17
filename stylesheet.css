@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: #FFFFFF;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
@@ -8,7 +8,7 @@ body {
     flex-direction: row;
     max-width: 1440px;
     height: 1024px;
-    border: 2px solid red;
+    
     
 }
 
@@ -41,11 +41,14 @@ nav {
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     padding:1rem;
-    margin-left: 0;
+    margin-left:0;
     color:#FFFFFF;
     border:0.5rem;
     font-weight: bold;
     font-size: 1em;
+    position:absolute;
+    left:0;
+    width:17rem;
 }
 
 .main-box {
@@ -147,7 +150,6 @@ nav {
         width:100%;
         height:auto;
         flex-direction: column;
-        border: 2px solid black;
     }
 
     .columns-status {
@@ -161,7 +163,6 @@ nav {
     .column-details {
         width:100%;
         box-sizing: border-box;
-        border: 2px solid pink;
     }
 
     .column-details.done-column {
