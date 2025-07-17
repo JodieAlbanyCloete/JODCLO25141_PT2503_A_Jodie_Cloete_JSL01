@@ -119,22 +119,52 @@ nav {
 @media (max-width:375px) {
 
     .kanban-box {
+        display:flex;
         flex-direction: column;
-        max-width: 375px;
+        max-width: 100%;
+    }
+
+    .main-box {
+        display:flex;
+        width:100%;
     }
 
     nav {
+        width:80%;
+    }
+
+    .box-header {
+        display:none;
+    }
+
+    .nav-box {
         display:none !important;
+    }
+
+    .columns {
+        display:flex;
+        width:100%;
+        height:auto;
+        flex-direction: column;
+        border: 2px solid black;
+    }
+
+    .columns-status {
+        display:flex;
+        width:100%;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .column-details {
+        width:100%;
+        box-sizing: border-box;
+        border: 2px solid pink;
     }
 
     .column-details.done-column {
         display:none;
     }
-
-    .columns-status {
-        flex-direction: column;
-    }
-
 }
    
 
