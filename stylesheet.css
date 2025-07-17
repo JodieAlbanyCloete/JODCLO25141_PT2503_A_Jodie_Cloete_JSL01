@@ -1,0 +1,37 @@
+body {
+    background-color: aqua;
+    font-family: 'Jakarta Sans', sans-serif;
+}
+
+.kanban-box {
+    display:flex;
+    flex-direction: row;
+    max-width: 1440px;
+    max-height: 1024px;
+    border: 2px solid red;
+}
+
+nav {
+    width:20%;
+    padding:2rem;
+    background-color: #FFFFFF;
+}
+
+.main-box {
+    flex:1;
+    width:80%;
+    background-color: #FFFFFF;
+}
+
+.columns-status {
+    display:flex;
+    flex-direction:row;
+    background-color:#F4F7FD;
+}
+
+.column-details {
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    
+}
