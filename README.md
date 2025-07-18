@@ -5,16 +5,16 @@ This project involves developing a **visually accurate and fully responsive Kanb
 The layout uses CSS Flexbox for visible column arrangements and adapts smoothly between Desktop and Mobile Views.
 
 Technologies used:
- 🚀 HTML
- ⚙️ CSS
- ⚛️ Google Fonts
+ - 🚀 HTML
+ - ⚙️ CSS
+ - ⚛️ Google Fonts
 
  Features
- 🥉 Three column layout
- 🎛️ Mobile responsiveness (optimized for 375px screens)
- 📚 Built with semantic HTML and CSS
+ - 🥉 Three column layout
+ - 🎛️ Mobile responsiveness (optimized for 375px screens)
+ - 📚 Built with semantic HTML and CSS
 
- - Set up instructions
- 📡 Used Flexbox for column layout
- 🎨 Applied a consistent colour scheme
- 📱 Designed for responsiveness using media queries
+ Set up instructions
+ -  Used Flexbox for column layout
+ - 🎨 Applied a consistent colour scheme
+ - 📱 Designed for responsiveness using media queries
